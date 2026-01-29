@@ -204,3 +204,28 @@ footer{
   .cards{ grid-template-columns: 1fr; }
 }
 
+.page-hero{
+  background: linear-gradient(135deg, rgba(11,60,93,.15), rgba(30,111,168,.12));
+  border-bottom: 1px solid rgba(0,0,0,.06);
+  padding: 28px 0;
+}
+.page-hero h1{margin:0;font-size:2rem}
+.page-hero p{margin:8px 0 0;color:var(--muted)}
+
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:10px 12px;border-radius:999px;
+  background:#fff;border:1px solid rgba(11,60,93,.12);
+  box-shadow: 0 8px 18px rgba(11,60,93,.08);
+}
+.chip i{color:var(--blue-700)}
+
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+.contact-item{
+  display:flex;gap:12px;align-items:center;
+  background:#fff;border:1px solid rgba(11,60,93,.12);
+  border-radius:14px;padding:14px;
+}
+.contact-item i{font-size:1.2rem;color:var(--blue-700)}
+@media(max-width:900px){.contact-grid{grid-template-columns:1fr}}
