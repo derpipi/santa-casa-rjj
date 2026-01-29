@@ -4,11 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Serviços | Santa Casa RJ</title>
+
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
+
+<!-- TOPO -->
 <div class="topbar">
   <div class="wrap">
     <div class="brand">
@@ -18,16 +21,22 @@
         <span>RIO DE JANEIRO • Serviço 24h</span>
       </div>
     </div>
+
     <div class="top-actions">
       <div class="badge24">
         <i class="fa-solid fa-phone-volume"></i>
-        <div><div>Atendimento</div><div class="big">24h!</div></div>
+        <div>
+          <div>Atendimento</div>
+          <div class="big">24h!</div>
+        </div>
       </div>
+
       <div class="phone">(21) 3952-6006</div>
     </div>
   </div>
 </div>
 
+<!-- MENU -->
 <nav>
   <div class="wrap">
     <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
@@ -38,38 +47,120 @@
   </div>
 </nav>
 
+<!-- HERO -->
 <section class="page-hero">
   <div class="wrap">
-    <h1>Serviços</h1>
-    <p>Escolha o serviço e abra a página com detalhes.</p>
+    <div class="hero-box">
+      <div class="hero-left">
+        <div class="hero-pill">
+          <i class="fa-solid fa-briefcase-medical"></i>
+          Serviços • Orientação completa • 24h
+        </div>
+
+        <h1>Serviços<br><span>assistência completa para sua família</span></h1>
+
+        <p>
+          A <strong>Santa Casa RJ</strong> oferece suporte com organização, respeito e serenidade.
+          Escolha abaixo o serviço e avance para a página com informações detalhadas.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn-whatsapp"
+             href="https://wa.me/552139526006?text=Olá,%20gostaria%20de%20informações%20sobre%20os%20serviços%20da%20Santa%20Casa%20RJ."
+             target="_blank">
+            <i class="fa-brands fa-whatsapp"></i> Tirar dúvidas no WhatsApp
+          </a>
+
+          <a class="btn" href="contato.html">
+            <i class="fa-solid fa-phone"></i> Ver contatos
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-illustration">
+          <div class="circle c1"></div>
+          <div class="circle c2"></div>
+          <div class="icon">
+            <i class="fa-solid fa-hands-holding-circle"></i>
+          </div>
+          <p>Atendimento com cuidado e clareza</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 <div class="container">
-  <div class="cards">
-    <a class="card" href="assistencia-funeral.html">
-      <i class="fa-solid fa-hand-holding-heart"></i>
-      <p><strong>Assistência Funeral</strong><br><span class="muted">Suporte completo e humanizado.</span></p>
-    </a>
 
-    <a class="card" href="cremacao.html">
-      <i class="fa-solid fa-fire-flame-curved"></i>
-      <p><strong>Cremação</strong><br><span class="muted">Orientação e procedimentos legais.</span></p>
-    </a>
+  <div class="section">
+    <h2>Nossos principais serviços</h2>
+    <p class="muted">Clique em um serviço para abrir a página com detalhes.</p>
 
-    <a class="card" href="translado.html">
-      <i class="fa-solid fa-truck-medical"></i>
-      <p><strong>Translado</strong><br><span class="muted">Municipal/estadual com equipe preparada.</span></p>
-    </a>
+    <div class="cards big-cards">
+      <a class="card link-card" href="assistencia-funeral.html">
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <p>Assistência Funeral</p>
+        <span class="card-sub">Velório, orientação e suporte completo</span>
+      </a>
 
-    <a class="card" href="planos.html">
-      <i class="fa-solid fa-file-signature"></i>
-      <p><strong>Planos Funerários</strong><br><span class="muted">Cobertura e tranquilidade pra família.</span></p>
-    </a>
+      <a class="card link-card" href="cremacao.html">
+        <i class="fa-solid fa-fire-flame-curved"></i>
+        <p>Cremação</p>
+        <span class="card-sub">Procedimentos, autorizações e orientação</span>
+      </a>
+
+      <a class="card link-card" href="translado.html">
+        <i class="fa-solid fa-truck-medical"></i>
+        <p>Translado</p>
+        <span class="card-sub">Atendimento e transporte com cuidado</span>
+      </a>
+
+      <a class="card link-card" href="contato.html">
+        <i class="fa-solid fa-headset"></i>
+        <p>Atendimento 24h</p>
+        <span class="card-sub">Fale conosco agora mesmo</span>
+      </a>
+    </div>
+
+    <div class="note">
+      <strong>Dica:</strong> se você me disser quais serviços exatamente você quer listar,
+      eu deixo essa seção perfeita (com mais cards e textos certinhos).
+    </div>
   </div>
+
+  <div class="section">
+    <h2>Como funciona o atendimento</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="tag"><i class="fa-solid fa-message"></i> 1</div>
+        <p class="title">Você chama</p>
+        <p class="muted">WhatsApp ou ligação (24h) para orientar o primeiro passo.</p>
+      </div>
+
+      <div class="card">
+        <div class="tag"><i class="fa-solid fa-file-lines"></i> 2</div>
+        <p class="title">Organizamos</p>
+        <p class="muted">Documentos, orientações e organização do serviço escolhido.</p>
+      </div>
+
+      <div class="card">
+        <div class="tag"><i class="fa-solid fa-shield-heart"></i> 3</div>
+        <p class="title">Acompanhamos</p>
+        <p class="muted">Suporte durante todo o processo, com respeito e serenidade.</p>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <footer>© 2026 Santa Casa RJ — Todos os direitos reservados</footer>
+
+<a class="whatsapp"
+   href="https://wa.me/552139526006?text=Olá,%20preciso%20de%20atendimento%20da%20Santa%20Casa%20RJ%20(24h)."
+   target="_blank">
+  <i class="fa-brands fa-whatsapp"></i> Atendimento 24h
+</a>
+
 </body>
 </html>
-
